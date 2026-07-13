@@ -21,7 +21,7 @@ Site vitrine pour un barbershop premium à Brazzaville. Projet portfolio démont
 - **Zero JavaScript** — Toute l'interactivité est gérée en CSS uniquement
 - **Menu hamburger** — Toggle via `<input type="checkbox">` + sélecteur CSS `:checked`
 - **Responsive** — 4 breakpoints : desktop, tablette (≤1024px), mobile (≤768px), petit mobile (≤480px)
-- **Navigation inter-pages** — 3 fichiers HTML独立 avec liens croisés
+- **Navigation inter-pages** — 3 fichiers HTML avec liens croisés
 - **Animations CSS** — Hover cards, transitions, smooth scroll
 - **Validation formulaire** — Attributs HTML5 natifs (`required`, `type="email"`, `type="tel"`)
 - **Design premium** — Dégradés, ombres portées, détails géométriques décoratifs
@@ -77,15 +77,6 @@ Aucun serveur local nécessaire. Le site fonctionne directement en ouvrant le fi
 
 ---
 
-## Déploiement GitHub Pages
-
-1. Aller dans **Settings** > **Pages** du dépôt GitHub
-2. **Source** : `Deploy from a branch`
-3. **Branch** : `main` / dossier `/ (root)`
-4. **Save**
-5. Le site sera accessible à : `https://GAEL-CODE-dev.github.io/PROJET-6.1/`
-
----
 
 ## Auteur
 
