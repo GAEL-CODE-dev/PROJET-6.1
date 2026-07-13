@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCRAM SALON — L'Excellence au rendez-vous à Brazzaville</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Hidden checkbox for CSS-only hamburger toggle -->
+    <input type="checkbox" id="menu-toggle">
+
+    <!-- Dark overlay when mobile menu is open -->
+    <label for="menu-toggle" class="page-overlay" aria-hidden="true"></label>
+
+    <!-- ============================================
+         HEADER
+         ============================================ -->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo">SCRAM <span>SALON</span></a>
+
+            <label for="menu-toggle" class="hamburger-label" aria-label="Menu">
+                <span class="bar"></span>
+            </label>
+
+            <nav class="main-nav" aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ============================================
+             HERO — ACCUEIL
+             ============================================ -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <span class="hero-badge">Premium Barbershop</span>
+                <h1>L'Excellence Capillaire <em>à Kinshasa</h1>
+                <p>
+                    Un espace dédié à votre style. Nos maîtres coiffeurs allient
+                    savoir-faire traditionnel et tendances modernes pour sublimer
+                    votre image.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fa-solid fa-scissors"></i> Nos Services
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fa-solid fa-calendar-check"></i> Réserver
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             POURQUOI NOUS CHOISIR
+             ============================================ -->
+        <section class="why-us">
+            <div class="container">
+                <h2 class="section-title">Pourquoi Nous Choisir</h2>
+                <hr class="section-divider">
+                <p class="section-subtitle">
+                    Une expérience capillaire pensée pour des résultats impeccables.
+                </p>
+
+                <div class="why-grid">
+                    <article class="why-card">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Hygiène Irréprochable</h3>
+                        <p>
+                            Chaque instrument est stérilisé entre chaque client.
+                            Nous respectons les normes d'hygiène les plus strictes.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-award"></i>
+                        </div>
+                        <h3>Coiffeurs Certifiés</h3>
+                        <p>
+                            Notre équipe est formée aux techniques les plus récentes
+                            et possède des certifications reconnues.
+                        </p>
+                    </article>
+
+                    <article class="why-card">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <h3>Produits Bio</h3>
+                        <p>
+                            Nous utilisons exclusivement des produits naturels et
+                            bio, respectueux de votre cuir chevelu.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SERVICES
+             ============================================ -->
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Nos Prestations</h2>
+                <hr class="section-divider">
+                <p class="section-subtitle">
+                    Des services sur mesure pour répondre à toutes vos envies.
+                </p>
+
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-razor"></i>
+                        </div>
+                        <h3>Coupe Homme</h3>
+                        <p>
+                            Coupe tendance à la tondeuse ou aux ciseaux,
+                            finition impeccable et style personnalisé.
+                        </p>
+                        <div class="service-price">
+                            15 000 FCFA <small>/ séance</small>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-scissors"></i>
+                        </div>
+                        <h3>Coupe Femme</h3>
+                        <p>
+                            Coupe, coiffage et mise en forme par nos
+                            spécialistes pour un résultat élégant.
+                        </p>
+                        <div class="service-price">
+                            20 000 FCFA <small>/ séance</small>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-spa"></i>
+                        </div>
+                        <h3>Soins & Traitements</h3>
+                        <p>
+                            Soins du cuir chevelu, hydratation profonde
+                            et traitements anti-chute naturels.
+                        </p>
+                        <div class="service-price">
+                            25 000 FCFA <small>/ séance</small>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-icon">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <h3>Barbe & Moustache</h3>
+                        <p>
+                            Taille, sculptage et soin de la barbe avec
+                            huiles essentielles premium.
+                        </p>
+                        <div class="service-price">
+                            10 000 FCFA <small>/ séance</small>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             CONTACT
+             ============================================ -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contactez-Nous</h2>
+                <hr class="section-divider">
+                <p class="section-subtitle">
+                    Prenez rendez-vous ou posez-nous vos questions.
+                </p>
+
+                <div class="contact-wrapper">
+
+                    <!-- Infos pratiques -->
+                    <div class="contact-info">
+                        <h3>Informations Pratiques</h3>
+                        <p>
+                            Nous vous accueillons du lundi au samedi dans un cadre
+                            moderne et chaleureux au cœur de Kinshasa.
+                        </p>
+
+                        <div class="info-list">
+                            <div class="info-item">
+                                <div class="info-item-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <div class="info-item-text">
+                                    <strong>Adresse</strong>
+                                    <span>42, Avenue Tombalbaye, Commune de la Gombe, Kinshasa, RDC</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-item-icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="info-item-text">
+                                    <strong>Téléphone</strong>
+                                    <span>+243 81 234 5678</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-item-icon">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="info-item-text">
+                                    <strong>Email</strong>
+                                    <span>info@kinshasacuts.cd</span>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-item-icon">
+                                    <i class="fa-solid fa-clock"></i>
+                                </div>
+                                <div class="info-item-text">
+                                    <strong>Horaires</strong>
+                                    <span>Lun – Sam : 08h00 – 20h00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Formulaire -->
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Jean Kabongo"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="jean@email.com"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="+243 81 000 0000"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Sujet</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Choisir un sujet</option>
+                                    <option value="rendez-vous">Prise de rendez-vous</option>
+                                    <option value="info">Demande d'informations</option>
+                                    <option value="devis">Devis personnalisé</option>
+                                    <option value="reclamation">Réclamation</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message">Message</label>
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    placeholder="Décrivez votre demande..."
+                                    required
+                                ></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-submit">
+                                <i class="fa-solid fa-paper-plane"></i> Envoyer
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="#home" class="logo">Kinshasa <span>Cuts</span></a>
+                <p>
+                    Votre barbershop premium au cœur de Kinshasa. L'élégance
+                    rencontre le savoir-faire depuis 2020.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4>Liens Rapides</h4>
+                <ul class="footer-links">
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Suivez-Nous</h4>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="X (Twitter)">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>Kinshasa Cuts</span>. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
